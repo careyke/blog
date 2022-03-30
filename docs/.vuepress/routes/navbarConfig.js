@@ -4,18 +4,18 @@ module.exports = {
       text: "前端基础",
       children: [
         {
-          text: 'HTML',
-          link: '/frontend/html/'
+          text: "HTML",
+          link: "/frontend/html/",
         },
         {
-          text: 'CSS',
-          link: '/frontend/css/'
+          text: "CSS",
+          link: "/frontend/css/",
         },
         {
-          text: 'JavaScript',
-          link: '/frontend/javascript/'
+          text: "JavaScript",
+          link: "/frontend/javascript/",
         },
-      ]
+      ],
     },
   ],
-}
+};

@@ -5,8 +5,8 @@ module.exports = {
   base:'/blog/',
   // 站点配置
   lang: "zh-CN",
-  title: "LittleKnife JavaScript",
-  description: "The blog of LittleKnife",
+  title: "LittleKnife's JavaScript",
+  description: "路漫漫其修远兮，吾将上下而求索。",
 
   // 主题和它的配置
   theme: "@vuepress/theme-default",
