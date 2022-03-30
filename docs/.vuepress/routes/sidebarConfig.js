@@ -8,9 +8,11 @@ const getAllMarkdownFileNames = (dir) => {
 };
 
 const HTML_PATH = path.resolve(__dirname, "../../frontend/html");
+const CSS_PATH = path.resolve(__dirname, "../../frontend/css");
 
 module.exports = {
   sidebar: {
     "/frontend/html/": getAllMarkdownFileNames(HTML_PATH),
+    "/frontend/css/": getAllMarkdownFileNames(CSS_PATH)
   },
 };
