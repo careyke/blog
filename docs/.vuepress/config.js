@@ -2,7 +2,7 @@ const { navbar } = require('./routes/navbarConfig');
 const { sidebar } = require('./routes/sidebarConfig');
 
 module.exports = {
-  base:'blog',
+  base:'/',
   // 站点配置
   lang: "zh-CN",
   title: "LittleKnife JavaScript",
