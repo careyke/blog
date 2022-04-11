@@ -2,7 +2,7 @@ const { navbar } = require('./routes/navbarConfig');
 const { sidebar } = require('./routes/sidebarConfig');
 
 module.exports = {
-  base:'/blog/',
+  base: '/blog/',
   // 站点配置
   lang: "zh-CN",
   title: "LittleKnife's JavaScript",
@@ -16,6 +16,40 @@ module.exports = {
     contributors: false,
     backToHome: '返回首页',
     navbar: navbar,
-    sidebar: sidebar
+    sidebar: sidebar,
+
+    algolia: {
+      apiKey: "f04be3a2f45bdf7185bb6e80b91fef2e",
+      indexName: "careyke",
+      appId: "7HYVRLWMRC",
+    }
   },
+  plugins:[
+    [
+      "@vuepress/docsearch",
+      {
+        apiKey: "f04be3a2f45bdf7185bb6e80b91fef2e",
+        indexName: "careyke",
+        // appId: "7HYVRLWMRC",
+        locales: {
+          '/': {
+            placeholder: 'Search Documentation',
+            translations: {
+              button: {
+                buttonText: 'Search Documentation',
+              },
+            },
+          },
+          '/zh/': {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+              },
+            },
+          },
+        },
+      },
+    ],
+  ]
 };
