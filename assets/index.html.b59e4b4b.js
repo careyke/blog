@@ -1,0 +1,1 @@
+const t={key:"v-deb89240",path:"/frontend/html/",title:"HTML",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648632044e3},filePathRelative:"frontend/html/README.md"};export{t as data};
