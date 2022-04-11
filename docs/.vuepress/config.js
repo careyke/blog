@@ -17,12 +17,6 @@ module.exports = {
     backToHome: '返回首页',
     navbar: navbar,
     sidebar: sidebar,
-
-    algolia: {
-      apiKey: "f04be3a2f45bdf7185bb6e80b91fef2e",
-      indexName: "careyke",
-      appId: "7HYVRLWMRC",
-    }
   },
   plugins:[
     [
